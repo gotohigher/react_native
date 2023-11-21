@@ -27,7 +27,12 @@ end
 
 target 'webrtcdemo' do
   config = use_native_modules!
-
+  project 'webrtcdemo',
+    'Dev.Debug' => :debug,
+    'Debug' => :debug,
+    'Dev.Release' => :release,
+    'Release' => :release
+  
   # Flags change depending on the env values.
   flags = get_default_flags()
 

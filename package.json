@@ -11,16 +11,25 @@
   },
   "dependencies": {
     "@react-native-community/netinfo": "^11.0.0",
-    "amazon-kinesis-video-streams-webrtc": "^2.1.0",
-    "aws-sdk": "^2.1489.0",
+    "amazon-kinesis-video-streams-webrtc": "^2.2.0",
+    "aws-amplify": "^5.3.11",
+    "aws-amplify-react-native": "^7.0.7",
+    "aws-sdk": "^2.1491.0",
     "deprecated-react-native-prop-types": "^5.0.0",
+    "expo-modules-core": "^1.5.11",
     "kill-port": "^2.0.1",
     "react": "18.2.0",
     "react-native": "^0.72.6",
     "react-native-aws3": "^0.0.9",
     "react-native-base64": "^0.2.1",
     "react-native-camera": "^4.2.1",
-    "react-native-cli": "^2.0.1"
+    "react-native-cli": "^2.0.1",
+    "react-native-document-picker": "^9.0.1",
+    "react-native-fs": "^2.20.0",
+    "react-native-permissions": "^3.10.1",
+    "react-native-upload-aws-s3": "^0.8.1",
+    "react-native-uuid": "^2.0.1",
+    "react-native-webrtc": "^111.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
